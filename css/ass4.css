@@ -283,6 +283,13 @@ span {
 .content-services:hover {
     background-color: white;
 }
+.content-services .hover:hover {
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
 
 /* end services */
 
@@ -832,7 +839,11 @@ textarea:focus{
         margin-bottom: 10px;
     }
 }
-@media (max-width:800px){
+@media (max-width:376px){
+    .containar {
+        width: 100%;
+    }
+
     .item {
         flex-direction: column;
         /* width: 100%; */
